@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>41a37545-a1d0-4e33-89eb-c0eb72c48088</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>045e3dc9-7264-4a74-93b8-63e7b8bd9792</rd:ReportID>
+  <DataSets>
+    <DataSet Name="AFIObjects_Part">
+      <Fields>
+        <Field Name="Atomizing1">
+          <DataField>Atomizing1</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Atomizing2">
+          <DataField>Atomizing2</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="BlowExcessWater">
+          <DataField>BlowExcessWater</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CapsQty">
+          <DataField>CapsQty</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ColorName">
+          <DataField>ColorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CureTemp">
+          <DataField>CureTemp</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="DotsQty">
+          <DataField>DotsQty</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Feet">
+          <DataField>Feet</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="FlowRate1">
+          <DataField>FlowRate1</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="FlowRate2">
+          <DataField>FlowRate2</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Id">
+          <DataField>Id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Kv1">
+          <DataField>Kv1</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Kv2">
+          <DataField>Kv2</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MaskTime">
+          <DataField>MaskTime</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Millage">
+          <DataField>Millage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MinConvSpeed">
+          <DataField>MinConvSpeed</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MinPartsPerRack">
+          <DataField>MinPartsPerRack</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MinPiecesPer">
+          <DataField>MinPiecesPer</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PaintTime">
+          <DataField>PaintTime</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="PartDesc">
+          <DataField>PartDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PartImage">
+          <DataField>PartImage</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PartNo">
+          <DataField>PartNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PlugsQty">
+          <DataField>PlugsQty</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PoundsPer">
+          <DataField>PoundsPer</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="PowderNumber">
+          <DataField>PowderNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PreMask">
+          <DataField>PreMask</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Receipe1">
+          <DataField>Receipe1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Receipe2">
+          <DataField>Receipe2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SpecialNotes">
+          <DataField>SpecialNotes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SpotFace">
+          <DataField>SpotFace</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SqFeet">
+          <DataField>SqFeet</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>AFIObjects</rd:DataSetName>
+        <rd:TableName>Part</rd:TableName>
+        <rd:ObjectDataSourceType>AFIObjects.Part, AFIObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>6.5in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="PartImage">
+        <rd:DefaultName>PartImage</rd:DefaultName>
+        <Top>1.25in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.375in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!PartImage.Value)</Value>
+      </Textbox>
+      <Textbox Name="ColorName">
+        <rd:DefaultName>ColorName</rd:DefaultName>
+        <Top>0.75in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.375in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ColorName.Value)</Value>
+      </Textbox>
+      <Textbox Name="PartNo">
+        <rd:DefaultName>PartNo</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Width>1.875in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.375in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!PartNo.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Width>1.625in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.5in</Left>
+        <Height>0.25in</Height>
+        <Value>Hello World This Part is :</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>
